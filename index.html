@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="2.png" rel="shortcut icon">
+	<meta charset="UTF-8">
+	<title>Wonderful Indonesia</title>
+	<script type="text/javascript" src="source.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="stylee.css">
+</head>
+<body>
+	
+
+<div class="container">
+	
+	<div class="header">
+<!-- 		<h1>WONDERFUL INDONESIA</h1> -->
+			<a href="index.html"><img src="1.png" width="400" height="150" alt="head" class="logo"></a>
+	</div> <!--/ .header -->
+	<div class="menu">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="destinasi.html">DESTINASI</a></li>
+			<li><a href="agenda.html">AGENDA</a></li>
+			<li><a href="about.html">ABOUT US</a></li>
+			</ul>
+	</div>
+
+<!--  	<h2>Automatic Slideshow</h2>
+	<p>Change image every 2 seconds:</p> -->
+	<p></p>
+ 	<div class="slideshow-container">
+	<div class="mySlides fade">
+<!--  	 <div class="numbertext">1 / 3</div> -->
+ 	<img src="a.jpg" style="width:100%">
+<!--  	<div class="text">Caption Text</div> -->
+	</div>
+ 	<div class="mySlides fade">
+<!--   <div class="numbertext">2 / 3</div> -->
+  	<img src="c.jpg" style="width:100%">
+<!--   	<div class="text">Caption Two</div> -->
+	</div>
+ 	<div class="mySlides fade">
+<!--   <div class="numbertext">3 / 3</div> -->
+  	<img src="d.jpg" style="width:100%">
+<!--   	<div class="text">Caption Three</div> -->
+	</div>
+	</div>
+	<br>
+	<div style="text-align:center">
+	 <span class="dot"></span> 
+	 <span class="dot"></span> 
+	 <span class="dot"></span> 
+	</div>
+ 	<script>
+	var slideIndex = 0;
+	showSlides();
+ 	function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+	}
+	</script>
+
+		<div class="main">
+		
+		<div class="left">
+			<h3>Budaya</h3>
+			<p><img src="r.jpg" alt=""></p>
+			<p>Budaya adalah suatu cara hidup yang berkembang, dan dimiliki bersama oleh sebuah kelompok orang, dan diwariskan dari generasi ke generasi. Budaya terbentuk dari banyak unsur yang rumit, termasuk sistem agama dan politik, adat istiadat, bahasa, perkakas, pakaian, bangunan, dan karya seni. </p>
+			<h3>Kuliner</h3>
+			<p><img src="o.jpg" alt=""></p>
+			<p>Salah satu kebudayaan yang dimiliki Indonesia adalah kuliner tradisional.Masing masing kota memiliki kuliner tradisional yang berbeda. Perbedaan perbedaan kuliner tradisional Indonesia itu juga masing masing mempunyai ciri khas. Seperti Jawa Tengah yang dikenal dengan rasa manis nya, atau Menado yang dikenal dengan masyarakat yang paling suka dengan rasa pedas,dan lain sebagainya. </p>
+		</div> <!--/ .header -->
+
+		<div class="middle">
+			<h3>Alam</h3>
+			<p><img src="01.jpg" alt=""></p>
+			<p><strong><a href="news.html">Pantai Bali Yang Bagus & Indah Favorit Wisatawan Indonesia Saat Liburan </a></strong>– Sebagai tempat wisata, daya tarik utama pulau Bali terletak pada panorma alam. Baik panorama alam pegunungan, pemandangan alam perbukitan dan sawah terasering. Serta panorama alam pantai Bali. Pantai di Bali jumlahnya sangat banyak. Ada pantai yang memiliki pantai pasir putih atau pantai yang pasirnya berwarna hitam. Namun untuk objek wisata, pantai yang memiliki pasir putih lebih banyak dikunjungi wisatawan di Bali.</p>
+			<p><img src="02.jpg" alt=""></p>
+			<p><strong><a href="news.html">Bromo - Gunung Terpopuler Di Jawa Timur </a></strong>–Gunung Bromo, siapa yang tidak mengenal kepopuleran gunung berapi yang masih aktif ini. Gunung Bromo adalah gunung yang paling terkenal di Jawa Timur dengan kunjungan yang paling ramai setiap tahunnya.Gunung Bromo memiliki ketinggian 2.392 Meter dari atas permukaan laut dan berada dalam empat lingkup kabupaten, yaitu Probolinggo, Pasuruan, Lumajang dan Kabupaten Malang. Keadaan alam gunung Bromo bertautan pula dengan lembah, ngarai, caldera atau lautan pasir dengan luas sekitar 10 Km.!</p>	
+		</div> <!--/ .middle -->
+
+		<div class="right">
+			<h3>Trending</h3>
+			<p>
+				<ul>
+					<li><a href="destinasi.html">Kalimantan</a></li>
+					<li><a href="destinasi.html">Sulawesi</a></li>
+					<li><a href="destinasi.html">Sumatra</a></li>
+					<li><a href="destinasi.html">Jawa</a></li>
+					<li><a href="destinasi.html">Papua & Kepulauan Maluku</a></li>
+				</ul>
+			</p>
+		</div> <!--/ .right -->
+	
+	</div> <!--/ .main -->
+
+		<div class="footer">
+		<p>Copyright &copy; 2018 <a href="testt.html">Wonderful-Indonesia.com</a></p>
+</div>
+
+</body>
+</html>
